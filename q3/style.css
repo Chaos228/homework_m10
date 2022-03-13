@@ -1,0 +1,91 @@
+p, div {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.input_message {
+    border: 1px solid blue;
+    font-size: 14px;
+    margin: 20px 10px;
+    padding: 5px;
+    
+}
+
+.btn_message {
+    border: 1px solid blue;
+    color: #000;
+    background-color: rgba(0,0,255, 0.5);
+    padding: 5px 10px;
+    margin: 20px 10px;
+}
+
+.window_chat{
+    width: 490px;
+    height: 500px;
+    border: 1px solid blue;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.client {
+    display: inline;
+    position: absolute;
+    right: 0;
+    float: left;
+    height: auto;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+    max-width: 50%;
+}
+
+.server {
+    display: inline;
+    position: absolute;
+    left: 0;
+    float: left;
+    height: auto;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+    max-width: 50%;
+}
+
+.line_message {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.geolocation {
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(0,0,255, 0.5);
+    border: 1px solid blue;
+}
+
+.map_link {
+    display: inline;
+    position: absolute;
+    right: 0;
+    float: left;
+    height: auto;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 5px;
+    max-width: 50%;
+}
